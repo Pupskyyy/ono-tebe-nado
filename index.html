@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href=".\fonts\fonts.css" />
-    <link rel="stylesheet" href=".\styles\global.css" />
-    <link rel="stylesheet" href=".\styles\style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header letter-spacing-one">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item header__links-list-item_no-bullit">
+          <li
+            class="header__links-list-item links-list-item_no-bullit no-letter-spacing"
+          >
             <a class="header__link header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
@@ -27,15 +29,16 @@
       <a class="header__logo">
         <img
           class="header__logo-image"
-          src=".\images\logo-black.svg"
+          src="./images/logo-black.svg"
           alt="Логотип чёрного цвета"
         />
       </a>
 
       <address class="address header__address">
-        <a class="link" href="tel:+99995555555">+9 999 555 5555</a><br />
-        <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
-        <p class="link-address no-letter-spacing">
+        <a class="link-address" href="tel:+99995555555">+9 999 555 5555</a
+        ><br />
+        <a class="link-address" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="no-letter-spacing">
           наб. Принсенграхт 263-<br />265, Амстердам
         </p>
       </address>
@@ -59,10 +62,10 @@
           >
         </h1>
         <div class="cover__description">
-          <h2 class="cover__description-text">
+          <h2 class="cover__description-subtitle">
             Аукцион вещей<span class="word-spacing-decreased"
               >,
-              <span class="letter-spacing-extended-description">в</span>которые
+              <span class="description-letter-spacing-extended">в</span>которые
               никто не верил</span
             >
           </h2>
@@ -71,11 +74,11 @@
       </section>
       <section class="lots">
         <h3 class="lots__heading">Лоты</h3>
-        <ul class="lots__card-list">
+        <ul class="lots__card-list links-list-item_no-bullit">
           <li class="lots__card-list-item">
             <a class="card-link">
               <div class="overlay"></div>
-              <article class="card card_type_film">
+              <article class="card card-type-film">
                 <h4 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h4>
@@ -90,7 +93,7 @@
           <li class="lots__card-list-item">
             <a class="card-link">
               <div class="overlay"></div>
-              <article class="card card_type_book">
+              <article class="card card-type-book">
                 <h4 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h4>
@@ -108,14 +111,15 @@
           <li class="lots__card-list-item">
             <a class="card-link">
               <div class="overlay"></div>
-              <article class="card card_type_picture">
+              <article class="card card-type-picture">
                 <h4 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h4>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                  котиков<span class="letter-spacing-extended-ellipsis"
+                  котиков<span
+                    class="card__text-ellipsis-letter-spacing-extended"
                     >...</span
                   >
                   Сколько бы вы на такое поставили, если бы не знали, что это —
@@ -131,61 +135,62 @@
         <div class="about__logo-column">
           <img
             class="about__logo-image"
-            src="\images\logo-white.svg"
+            src="/images/logo-white.svg"
             alt="Логотип белого цвета"
           />
         </div>
         <article class="about__article">
           <h3 class="about__title">Об аукционе</h3>
-          <div class="about__text">
-            <p class="article__topic-letter-spacing">
+          <div class="about__article-text">
+            <p class="letter-spacing-one">
               Здесь вы не встретите очередное
               <span class="no-letter-spacing"
                 >пафосное собрание невероятно дорогого антиквариата.</span
               >
-              <span class="letter-spacing-zero-two">Наши</span> лоты вообще не
+              <span class="letter-spacing-two">Наши</span> лоты вообще не
               <span class="no-letter-spacing">должны</span>
-              <span class="letter-spacing-minus-zero-one">были попасть</span>
+              <span class="letter-spacing-minus-one">были попасть</span>
               <span class="no-letter-spacing">ни на один</span> аукцион.
               <span class="no-letter-spacing">Потому что кому нужен</span>
-              <span class="letter-spacing-zero-three">дневник</span>
+              <span class="letter-spacing-three">дневник</span>
               <span class="no-letter-spacing"
                 >девочки-подростка или картина, которую может</span
               >
-              <span class="letter-spacing-zero-two">нарисовать</span> даже
+              <span class="letter-spacing-two">нарисовать</span> даже
               <span class="no-letter-spacing">ребёнок? Кому нужны</span> все эти
               странные вещи, созданные
               <span class="no-letter-spacing">любителями?</span>
             </p>
-            <p class="omg__letter-spacing-second">
+            <p>
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
               время. В пух и прах растерзанные критиками. Непринятые и
               непонятые. Когда-то
-              <span class="letter-spacing-zero-four">они</span> казались просто
-              <span class="article__topic-letter-spacing">неудачными.</span> Но,
-              несмотря <br />на критику, кажущуюся простоту или сложность,
-              сейчас без этих лотов невозможно
-              <span class="article__topic-letter-spacing"
+              <span class="letter-spacing-four">они</span> казались просто
+              <span class="letter-spacing-one">неудачными.</span> Но, несмотря
+              <br />на критику, кажущуюся простоту или сложность, сейчас без
+              этих лотов невозможно
+              <span class="letter-spacing-one"
                 >представить современную культуру.</span
               >
               Когда в эти вещи не верил никто, продолжали верить
-              <span class="article__topic-letter-spacing">их создатели.</span> И
-              сейчас эти лоты стали культовыми.
+              <span class="letter-spacing-one">их создатели.</span> И сейчас эти
+              лоты стали культовыми.
             </p>
           </div>
         </article>
       </section>
     </main>
     <footer class="footer">
-      <address class="address">
-        <a class="link" href="tel:+99995555555">+9 999 555 5555</a><br />
-        <a class="link" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
-        <p class="link-address no-letter-spacing">
+      <address class="address letter-spacing-one">
+        <a class="link-address" href="tel:+99995555555">+9 999 555 5555</a
+        ><br />
+        <a class="link-address" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="no-letter-spacing">
           наб. Принсенграхт 263-<br />265, Амстердам
         </p>
       </address>
       <nav class="footer__menu">
-        <ul class="footer__menu-list">
+        <ul class="footer__menu-list links-list-item_no-bullit">
           <li class="footer__menu-list-item">
             <a class="footer__menu-link footer__menu-link_active">главная</a>
           </li>
@@ -197,20 +202,20 @@
           </li>
         </ul>
       </nav>
-      <ul class="footer__social-list">
+      <ul class="footer__social-list links-list-item_no-bullit">
         <li class="footer__social-list-item">
           <a class="footer__social-link">
-            <img src="\images\yt.svg" alt="" />
+            <img src="/images/yt.svg" alt="Логотип youtube.com" />
           </a>
         </li>
         <li class="footer__social-list-item">
           <a class="footer__social-link">
-            <img src="\images\vk.svg" alt="" />
+            <img src="/images/vk.svg" alt="Логтип vk.com" />
           </a>
         </li>
         <li class="footer__social-list-item">
           <a class="footer__social-link">
-            <img src="\images\pinterest.svg" alt="" />
+            <img src="/images/pinterest.svg" alt="Логотип pinterest.com" />
           </a>
         </li>
       </ul>
